@@ -1,0 +1,345 @@
+/* Normal desktop :1200px. */
+
+@media (min-width: 1200px) and (max-width: 1500px) {}
+
+
+/* Normal desktop :992px. */
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .main-menu {
+        text-align: center !important;
+    }
+    .header-social {
+        text-align: right !important;
+    }
+    .slider-area {
+        height: 100%;
+        /*background-size: cover;*/
+        background-attachment: inherit;
+    }
+    .lomba-head {
+        transform: rotate(360deg);
+        top: 7%;
+        left: 33%;
+    }
+    .lomba-head h2,
+    .lomba-head-right h2 {
+        font-size: 85px;
+    }
+    .box-img::after {
+        top: -72px;
+        left: -40px;
+    }
+    .blog::after {
+        left: -20px;
+    }
+    .blog::before {
+        left: 88%;
+    }
+    .follow {
+    left: -56.7%;
+    top: 26%;
+}
+}
+
+
+/* Tablet desktop :768px. */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    nav {
+        display: none;
+    }
+    .slicknav_menu {
+        background: url(../images/bg3.jpg) center center no-repeat;
+        padding: 5px;
+        position: fixed;
+        width: 100%;
+        z-index: 140;
+        display: block;
+    }
+    .slicknav_nav {
+        text-align: center;
+    }
+    .slicknav_btn {
+        background: transparent;
+    }
+    .slicknav_brand {
+        padding: 0px 20px;
+    }
+    .slicknav_nav a:hover {
+        color: rgba(250, 255, 0, 0.8);
+        background-color: transparent;
+    }
+    .slicknav_nav .slicknav_row:hover {
+        background-color: rgba(250, 255, 0, 0.2);
+    }
+    .slider-area {
+        height: 100%;
+        background-attachment: inherit;
+    }
+    .lomba-head {
+        transform: rotate(360deg);
+        top: 7%;
+        left: 33%;
+    }
+    .lomba-head h2,
+    .lomba-head-right h2 {
+        font-size: 85px;
+    }
+    .about-img {
+        margin-right: 40px;
+    }
+    .single-services {
+        padding: 25px 10px;
+    }
+    .single-counter {
+        margin-left: 65px;
+    }
+    #about-section {
+        padding: 85px 0;
+    }
+    .experince-area,
+    .counter-area,
+    .service-area,
+    .portfolio-area,
+    .client-area,
+    .blog-area,
+    .hire-area,
+    .contact-area {
+        padding: 70px 0;
+    }
+    .services,
+    .porfolio,
+    .blog,
+    .contact-info,
+    .main-contact,
+    .single-ex {
+        margin-top: 55px;
+    }
+    h4.section-border::before {
+        width: 72px;
+        left: 44%;
+    }
+    .opacity-img {
+        right: 20px;
+        top: 75%;
+    }
+    .profile {
+        padding: 20px 35px 15px 15px;
+    }
+    .box-img::before {
+        bottom: -50px;
+        right: -42px;
+        height: 30%;
+    }
+    .box-img::after {
+        height: 30%;
+        top: -13px;
+        left: -33px;
+    }
+    .box-img img {
+        margin-left: 0px;
+        width: 100%;
+    }
+    .blog::before {
+        width: 16%;
+        height: 16%;
+        top: 51px;
+        left: 87%;
+    }
+    .blog::after {
+        width: 16%;
+        height: 16%;
+        bottom: 43px;
+        left: -36px;
+    }
+    .follow {
+    left: -47.7%;
+    top: 35.2%;
+}
+}
+
+
+/* small mobile :320px. */
+
+@media (max-width: 767px) {
+    nav {
+        display: none;
+    }
+    .slicknav_menu {
+        background: url(../images/bg1.jpg) center center no-repeat;
+        padding: 5px;
+        position: fixed;
+        width: 100%;
+        z-index: 999;
+        display: block;
+    }
+    .slicknav_nav {
+        text-align: center;
+    }
+    .slicknav_btn {
+        background: transparent;
+    }
+    .slicknav_nav a:hover {
+        color: rgba(250, 255, 0, 0.8);
+        background-color: transparent;
+    }
+    .slicknav_nav .slicknav_row:hover {
+        background-color: rgba(250, 255, 0, 0.2);
+    }
+    .slicknav_brand {
+        padding: 0px 20px
+    }
+    .header-social {
+        display: none;
+    }
+    .info-header h4 {
+        font-size: 60px;
+        letter-spacing: 2px;
+    }
+    .cd-headline {
+        font-size: 2.5rem;
+    }
+    .slider-area {
+        height: 100%;
+        background-attachment: inherit;
+    }
+    .info-header {
+        margin-left: 20px;
+        padding-top: 130px;
+        padding-bottom: 100px;
+    }
+    .btn-one {
+        line-height: 35px;
+        min-width: 135px;
+        height: 40px;
+    }
+    .lomba-head {
+        transform: rotate(360deg);
+        top: 7%;
+        left: 33%;
+    }
+    .lomba-head h2,
+    .lomba-head-right h2 {
+        font-size: 85px;
+    }
+    .box-img img {
+        margin-left: 50px;
+        width: 100%;
+    }
+    .box-img::after {
+        top: -13px;
+        left: -3px;
+        height: 30%;
+    }
+    .box-img::before {
+        bottom: -67px;
+        right: -65px;
+        height: 30%;
+    }
+    #about-section {
+        padding-top: 50px;
+        padding-bottom: 60px;
+    }
+    .section-tittle h4 {
+        font-size: 27px;
+        margin-bottom: 15px;
+    }
+    .profile {
+        margin-top: 20px;
+        padding: 10px 20px 10px;
+        margin-bottom: 35px;
+    }
+    .experince-area,
+    .counter-area,
+    .service-area,
+    .portfolio-area,
+    .client-area,
+    .blog-area,
+    .hire-area,
+    .contact-area {
+        padding: 50px 0;
+    }
+    .skill-section {
+        padding: 50px 0;
+    }
+    .section-tittle h3 {
+        font-size: 18px;
+    }
+    .section-tittle h4 {
+        font-size: 22px;
+    }
+    h4.section-border::before {
+        top: 50px;
+        left: 39%;
+    }
+    h4.section-border::after {
+        top: 43px;
+    }
+    #about-section>.lomba-head {
+        left: 3%;
+        top: 38.7%
+    }
+    .lomba-head {
+        top: 2%;
+        left: 22%;
+    }
+    .lomba-head h2 {
+        visibility: hidden;
+        animation-name: none;
+        font-size: 50px;
+    }
+    .services,
+    .porfolio,
+    .blog,
+    .contact-info,
+    .main-contact,
+    .single-ex {
+        margin-top: 55px;
+    }
+    .cv-head {
+        padding-bottom: 10px;
+        margin-bottom: 12px;
+    }
+    .opacity-img {
+        right: 6px;
+        top: 80%;
+    }
+    .single-counter {
+        margin-left: 70px;
+    }
+    .client-slider.owl-carousel .owl-dots {
+        left: 40%;
+        margin-top: 3px;
+    }
+    .blog::before {
+        width: 26%;
+        height: 10%;
+        top: -5%;
+        left: 6%;
+    }
+    .blog::after {
+        display: none;
+    }
+    .sb-3,
+    .sb-2 {
+        margin-top: 30px;
+    }
+    .about-img
+    {
+        margin-right: 50px;
+    }
+    .follow {
+    left: -33.7%;
+    top: -36.8%;
+}
+}
+
+
+/* Large Mobile :480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .container {
+        width: 450px
+    }
+}
